@@ -377,7 +377,7 @@ public class Registration {
     @Override
     public String toString() {
         return String.format(
-                "Registration [registrationDate=%s, identity=%s, lifeTimeInSec=%s, smsNumber=%s, lwM2mVersion=%s, bindingMode=%s, queueMode=%s, endpoint=%s, id=%s, objectLinks=%s, additionalRegistrationAttributes=%s, rootPath=%s, supportedContentFormats=%s, supportedObjects=%s, availableInstances=%s, lastUpdate=%s, applicationData=%s, gatewayRegId=%, gatewayPrefix=%, endDeviceEndpoints=%]",
+                "Registration [registrationDate=%s, identity=%s, lifeTimeInSec=%s, smsNumber=%s, lwM2mVersion=%s, bindingMode=%s, queueMode=%s, endpoint=%s, id=%s, objectLinks=%s, additionalRegistrationAttributes=%s, rootPath=%s, supportedContentFormats=%s, supportedObjects=%s, availableInstances=%s, lastUpdate=%s, applicationData=%s, gatewayRegId=%s, gatewayPrefix=%s, endDeviceEndpoints=%s]",
                 registrationDate, identity, lifeTimeInSec, smsNumber, lwM2mVersion, bindingMode, queueMode, endpoint,
                 id, Arrays.toString(objectLinks), additionalRegistrationAttributes, rootPath, supportedContentFormats,
                 supportedObjects, availableInstances, lastUpdate, applicationData, gatewayRegId, gatewayPrefix,
